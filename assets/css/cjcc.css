@@ -1,0 +1,13 @@
+/* Footer */
+
+footer {
+    background-color: #413a5f;
+    height: 190px;
+}
+footer p,
+footer a {
+    color: #fff;
+}
+.henn-logo {
+    width: 65px;
+}
