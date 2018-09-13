@@ -1,13 +1,52 @@
 /* Footer */
 
 footer {
-    background-color: #413a5f;
+    background-color: #3E1151;
     height: 190px;
 }
 footer p,
 footer a {
     color: #fff;
+    font-size: 16px;
 }
 .henn-logo {
-    width: 65px;
+    width: 55px;
+}
+
+.strat-map {
+    width: 75%;
+}
+
+p {
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.navbar-brand {
+    font-weight: 100;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+a {
+    color: #0058A4;
+    font-size: 18px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-weight: 200;
+}
+
+.form-left {
+    float: left;
+}
+
+.form-right {
+    float: left;
+    margin-left: 40px;
 }

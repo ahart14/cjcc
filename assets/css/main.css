@@ -14,7 +14,7 @@ body {
 h1, .h1,
 h2, .h2,
 h3, .h3 {
-    font-weight: 200;
+    font-weight: 100;
 }
 h1, .h1 {
   font-size: 36px;
@@ -32,6 +32,7 @@ h1, .h1 {
 h2, .h2 {
   font-size: 34px;
   line-height: 1.25;
+  margin-top: 50px;
 }
 @media (min-width: 768px) {
   h2, .h2 {
@@ -58,9 +59,9 @@ h3, .h3 {
   }
 }
 h4, .h4 {
-    font-size: 20px;
+    font-size: 26px;
     line-height: 1.2;
-    font-weight: 600;
+    font-weight: 200;
     margin-top: 25px;
 }
 @media (min-width: 768px) {
@@ -102,7 +103,7 @@ blockquote cite {
 .lead-text {
   margin-bottom: 25px;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 200;
   line-height: 1.5;
 }
 @media (min-width: 768px) {
@@ -125,6 +126,69 @@ Buttons
     padding: 10px;
     border-radius: 3px;
     white-space: normal;
+}
+
+.white-btn {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: white;
+    white-space: normal;
+    width: 180px;
+    height: 55px;
+    float: left;
+}
+
+.white-btn a{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #3E1151;
+    font-weight: 600;
+    margin: auto;
+    width: 100%;
+}
+
+.outline-btn {
+    margin: 10px 0;
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    white-space: normal;
+    width: 180px;
+    height: 55px;
+    float: left;
+    margin-left: 30px;
+}
+
+.outline-btn a{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin: auto;
+    width: 100%;
+}
+
+.purple-btn {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #3E1151;
+    white-space: normal;
+    width: 180px;
+    height: 55px;
+    float: left;
+}
+
+.purple-btn a{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    margin: auto;
+    width: 100%;
 }
 
 /*************************
@@ -271,6 +335,9 @@ Navigation
     }
 }
 */
+
+
+
 .navbar-nav__right>li {
     text-align: center;
     display: inline-block;
@@ -403,17 +470,17 @@ Nav colors
 .nav-purple > .navbar-default,
 .nav-purple > .navbar-default .navbar-toggle:hover,
 .nav-purple > .navbar-default .navbar-toggle:focus {
-    background-color: #413a5f;
+    background-color: #3E1151;
 }
 .nav-purple > .navbar-default .navbar-left>li>a {
     color: #fff;
 }
 .nav-purple > .navbar-default .navbar-left > li.active>a {
-    color: #413a5f;
+    color: #3E1151;
 }
 .nav-purple > .navbar-default .navbar-left>li:hover,
 .nav-purple > .navbar-default .navbar-left>li>a:hover {
-    color: #413a5f;
+    color: #3E1151;
     background-color: #fff;
 }
 .nav-purple > .navbar-default .navbar-toggle .icon-bar {
@@ -623,15 +690,15 @@ section.blue-light.overlay > .container-wrapper {
 section.blue-light > .container-wrapper {
     color: #fff;
 }
-.purple { /*#413a5f*/
+.purple { /*#3E1151*/
 
 }
 section.purple > .container-wrapper {
-    background-color: #413a5f;
+    background-color: #3E1151;
     color: #fff;
 }
 section.purple.overlay > .container-wrapper {
-    background: rgba(65,58,95,.85);
+    background: rgba(67,17,81,.6);
 }
 section.purple > .container-wrapper h2 {
     color: #fff;
@@ -772,16 +839,16 @@ Container accent colors
     border: 3px solid #fff;
     color: #fff;
 }
-/* Purple #413a5f */
+/* Purple #3E1151 */
 .accent-purple h2,
 .accent-purple h3 {
-    color: #413a5f;
+    color: #3E1151;
 }
 .accent-purple .btn-primary {
-    background-color: #413a5f;
-    border: 3px solid #413a5f;
+    background-color: #3E1151;
+    border: 3px solid #3E1151;
 }
-.accent-purple .btn-primary:hover {
+.accent-purple .btn-primary:hover { 
     background-color: #302a45;
     border: 3px solid #302a45;
 }
@@ -793,7 +860,7 @@ Container accent colors
 .accent-purple.overlay > .container-wrapper .btn-primary:hover {
     background-color: #fff;
     border: 3px solid #fff;
-    color: #413a5f;
+    color: #3E1151;
 }
 /* Green #9fcc3b */
 .accent-green h2,
@@ -879,12 +946,18 @@ Media objects
     max-width: 768px;
 }
 .media-body h4 {
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 .media-left {
     padding-right: 30px;
 }
+
+.media-left img{
+    width: 100px;
+    height: 100px;
+}
+
 @media only screen and (max-width: 479px) {
   .media-left, .media-right, .media-body {
     display: block;
@@ -1083,7 +1156,7 @@ Hero image
     color: #fff;
 }
 .accent-purple .hero-overlay {
-    background-color: #413a5f;
+    background-color: #3E1151;
 }
 .accent-purple .hero-overlay h3,
 .accent-purple .hero-overlay h4 {
