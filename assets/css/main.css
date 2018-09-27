@@ -36,11 +36,11 @@ h1, .h1 {
 h2, .h2 {
   font-size: 34px;
   line-height: 1.25;
-  margin-top: 50px;
 }
 @media (min-width: 768px) {
   h2, .h2 {
     font-size: 38px;
+    margin-top: 50px;
   }
 }
 @media (min-width: 992px) {
@@ -134,7 +134,7 @@ Buttons
 
 .white-btn {
     margin: 10px 0;
-    padding: 10px;
+    padding: 12px;
     background-color: white;
     white-space: normal;
     width: 180px;
@@ -166,7 +166,7 @@ Buttons
 }
 .outline-btn {
     margin: 10px 0;
-    padding: 6px;
+    padding: 8px;
     border-style: solid;
     border-color: white;
     border-width: 4px;
@@ -1214,7 +1214,7 @@ Video - full width
     height: 100px;
     background: url('https://www.hennepin.us/branding-assets/img/video-arrow.png') no-repeat;
     z-index: 1;
-    margin-top: -72px;
+    margin-top: -48px;
     margin-left: -64px;
     background-size: cover;
     opacity: .8;
@@ -1223,7 +1223,7 @@ Video - full width
     .vid-player-img:before {
         width: 154px;
         height: 144px;
-        margin-top: -120px;
+        margin-top: -80px;
         margin-left: -106px;
     }
 }
