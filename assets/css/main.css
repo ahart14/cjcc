@@ -139,9 +139,19 @@ Buttons
     white-space: normal;
     width: 180px;
     height: 55px;
-    float: left;
 }
-
+.white-btn:hover {
+    padding: 6px;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    background-color: transparent;
+}
+@media (min-width: 500px) {
+    .white-btn {
+        float: left;
+    }
+}
 .white-btn a{
     display: inline-block;
     text-align: center;
@@ -151,20 +161,31 @@ Buttons
     margin: auto;
     width: 100%;
 }
-
+.white-btn:hover a {
+    color: #fff;
+}
 .outline-btn {
     margin: 10px 0;
-    padding: 10px;
+    padding: 6px;
     border-style: solid;
     border-color: white;
     border-width: 4px;
     white-space: normal;
     width: 180px;
     height: 55px;
-    float: left;
-    margin-left: 30px;
 }
-
+.outline-btn:hover {
+    background-color: #fff;
+}
+.outline-btn:hover a {
+    color: #3e1151;
+}
+@media (min-width: 500px) {
+    .outline-btn {
+        float: left;
+        margin-left: 30px;
+    }
+}
 .outline-btn a{
     display: inline-block;
     text-align: center;
@@ -174,7 +195,7 @@ Buttons
     margin: auto;
     width: 100%;
 }
-
+/* 
 .purple-btn {
     margin: 10px 0;
     padding: 10px;
@@ -184,12 +205,12 @@ Buttons
     height: 55px;
     float: left;
 }
-
-.purple-btn a{
+*/
+.purple-btn a {
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
     font-weight: 600;
     margin: auto;
     width: 100%;
@@ -306,6 +327,7 @@ Navigation
     margin: 0;
     margin-left: calc(50% + 12px);
 }
+/*
 .toggle-button-text {
     color: white;
     position: absolute;
@@ -315,6 +337,7 @@ Navigation
     font-size: 15px;
     font-weight: 100;
 }
+*/
 .banner-wrap {
     display: table;
     margin: 0 auto;
@@ -963,11 +986,11 @@ Media objects
 }
 
 @media only screen and (max-width: 479px) {
-  .media-left, .media-right, .media-body {
+  .media-left, .media-right, .media-text {
     display: block;
     width: 100%;
   }
-  .media-body h4 {
+  .media-text h4 {
     margin-top: 15px;
   }
 }
@@ -1225,7 +1248,7 @@ Video - full width
     background-size: cover;
 }
 .purple .vid-player-img:after {
-    background: url('https://www.hennepin.us/branding-assets/img/curved-lines-purple.png') no-repeat;
+    background: url('/assets/images/curved-lines-purple.png') no-repeat;
     background-size: cover;
 }
 
