@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <Site Server="http://scdev" UserName="sitecore\admin" IsRemoteSitecore="False" />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="layouts\Hennepin CJCC\CJCCMaster.aspx" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="master">{98ED7DAC-B21E-41A8-B126-DB3A99CD09E9}</Item>
+    </File>
+    <File Include="layouts\Hennepin CJCC\CJCCHomePage.ascx" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="master">{07CD29F9-C256-44CC-AA3E-C211BFDF3BAE}</Item>
+    </File>
+  </ItemGroup>
+</Project>

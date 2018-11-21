@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8CD49A37-8753-42B3-8CA0-A76FAC62EEB8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hennepin.SCWeb.CJCC</RootNamespace>
+    <AssemblyName>Hennepin.SCWeb.CJCC</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Sitecore.Kernel, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\ComponentArt.Web.UI.dll" />
+    <Content Include="bin\Debug\ComponentArt.Web.UI.dll" />
+    <Content Include="bin\Debug\Hennepin.SCWeb.Support.dll" />
+    <Content Include="bin\Debug\Hennepin.SCWeb.Support.pdb" />
+    <Content Include="bin\Debug\HtmlAgilityPack.dll" />
+    <Content Include="bin\Debug\ITHit.WebDAV.Server.dll" />
+    <Content Include="bin\Debug\Lucene.Net.dll" />
+    <Content Include="bin\Debug\Mvp.Xml.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="bin\Debug\RadEditor.Net2.dll" />
+    <Content Include="bin\Debug\Sitecore.Kernel.dll" />
+    <Content Include="bin\Debug\Sitecore.Kernel.xml" />
+    <Content Include="bin\Debug\Sitecore.Logging.dll" />
+    <Content Include="bin\Debug\Sitecore.NVelocity.dll" />
+    <Content Include="bin\Debug\Sitecore.Zip.dll" />
+    <Content Include="bin\Debug\Telerik.Web.UI.dll" />
+    <Content Include="bin\Debug\Telerik.Web.UI.xml" />
+    <Content Include="bin\Hennepin.SCWeb.Controls.dll" />
+    <Content Include="bin\Hennepin.SCWeb.Controls.pdb" />
+    <Content Include="bin\Hennepin.SCWeb.Extensions.dll" />
+    <Content Include="bin\Hennepin.SCWeb.HCCD.dll" />
+    <Content Include="bin\Hennepin.SCWeb.HCCD.pdb" />
+    <Content Include="bin\Hennepin.SCWeb.HYHH.dll" />
+    <Content Include="bin\Hennepin.SCWeb.HYHH.pdb" />
+    <Content Include="bin\Hennepin.SCWeb.Library.dll" />
+    <Content Include="bin\Hennepin.SCWeb.Library.pdb" />
+    <Content Include="bin\Hennepin.SCWeb.Mesonet.dll" />
+    <Content Include="bin\Hennepin.SCWeb.Mesonet.pdb" />
+    <Content Include="bin\Hennepin.SCWeb.MHP.dll" />
+    <Content Include="bin\Hennepin.SCWeb.MHP.pdb" />
+    <Content Include="bin\Hennepin.SCWeb.Micro.dll" />
+    <Content Include="bin\Hennepin.SCWeb.Micro.pdb" />
+    <Content Include="bin\Hennepin.SCWeb.MicroTwo.dll" />
+    <Content Include="bin\Hennepin.SCWeb.MicroTwo.pdb" />
+    <Content Include="bin\Hennepin.SCWeb.MMH.dll" />
+    <Content Include="bin\Hennepin.SCWeb.MMH.pdb" />
+    <Content Include="bin\Hennepin.SCWeb.NorthPoint.dll" />
+    <Content Include="bin\Hennepin.SCWeb.RedDoor.dll" />
+    <Content Include="bin\Hennepin.SCWeb.RedDoor.pdb" />
+    <Content Include="bin\Hennepin.SCWeb.Support.dll" />
+    <Content Include="bin\Hennepin.SCWeb.Support.pdb" />
+    <Content Include="bin\Hennepin.SCWeb.UserControls.dll" />
+    <Content Include="bin\Hennepin.SCWeb.UserControls.pdb" />
+    <Content Include="bin\HtmlAgilityPack.dll" />
+    <Content Include="bin\ITHit.WebDAV.Server.dll" />
+    <Content Include="bin\login.dll" />
+    <Content Include="bin\Lucene.Net.dll" />
+    <Content Include="bin\MSCaptcha.dll" />
+    <Content Include="bin\Mvp.Xml.dll" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\RadEditor.Net2.dll" />
+    <Content Include="bin\SharedSource.RedirectModule.dll" />
+    <Content Include="bin\Sitecore.Analytics.dll" />
+    <Content Include="bin\Sitecore.Apps.Loader.dll" />
+    <Content Include="bin\Sitecore.Automation.MarketingAutomation.dll" />
+    <Content Include="bin\Sitecore.Client.dll" />
+    <Content Include="bin\Sitecore.Client.XML" />
+    <Content Include="bin\Sitecore.ExternalLinkChecker.dll" />
+    <Content Include="bin\Sitecore.Forms.Core.dll" />
+    <Content Include="bin\Sitecore.Forms.Custom.dll" />
+    <Content Include="bin\Sitecore.Kernel.dll" />
+    <Content Include="bin\Sitecore.Logging.dll" />
+    <Content Include="bin\Sitecore.Mvc.Analytics.dll" />
+    <Content Include="bin\Sitecore.Mvc.DeviceSimulator.dll" />
+    <Content Include="bin\Sitecore.Mvc.dll" />
+    <Content Include="bin\Sitecore.Mvc.ExperienceEditor.dll" />
+    <Content Include="bin\sitecore.nexus.dll" />
+    <Content Include="bin\Sitecore.NVelocity.dll" />
+    <Content Include="bin\Sitecore.Oracle.dll" />
+    <Content Include="bin\Sitecore.Publishing.WebDeploy.dll" />
+    <Content Include="bin\Sitecore.Rocks.Server.Core.dll" />
+    <Content Include="bin\Sitecore.Rocks.Server.dll" />
+    <Content Include="bin\Sitecore.Rocks.Server.Lucene.2313.dll" />
+    <Content Include="bin\Sitecore.Rocks.Server.Lucene.2941.dll" />
+    <Content Include="bin\Sitecore.Rocks.Server.Validation.dll" />
+    <Content Include="bin\Sitecore.Security.AntiCsrf.dll" />
+    <Content Include="bin\Sitecore.SegmentBuilder.dll" />
+    <Content Include="bin\Sitecore.Shell.MarketingAutomation.dll" />
+    <Content Include="bin\Sitecore.Update.dll" />
+    <Content Include="bin\Sitecore.Zip.dll" />
+    <Content Include="bin\Stimulsoft.Base.dll" />
+    <Content Include="bin\Stimulsoft.Database.dll" />
+    <Content Include="bin\Stimulsoft.Report.dll" />
+    <Content Include="bin\Stimulsoft.Report.Web.dll" />
+    <Content Include="bin\Stimulsoft.Report.WebDesign.dll" />
+    <Content Include="bin\Telerik.Web.UI.dll" />
+    <Content Include="bin\Telerik.Web.UI.Skins.dll" />
+    <Content Include="bin\Telerik.Web.UI.xml" />
+    <Content Include="bin\YAF.Sitecore.dll" />
+    <Content Include="bin\YAF.Sitecore.pdb" />
+    <Content Include="cjcc-assets\css\cjcc.css" />
+    <Content Include="cjcc-assets\css\main.css" />
+    <Content Include="cjcc-assets\documents.html" />
+    <Content Include="cjcc-assets\images\BG-Docs.jpg" />
+    <Content Include="cjcc-assets\images\BG-Members.jpg" />
+    <Content Include="cjcc-assets\images\BG-Strat.jpg" />
+    <Content Include="cjcc-assets\images\court.png" />
+    <Content Include="cjcc-assets\images\court_blue.png" />
+    <Content Include="cjcc-assets\images\curved-lines-blue-dark.png" />
+    <Content Include="cjcc-assets\images\curved-lines-blue-standard.png" />
+    <Content Include="cjcc-assets\images\curved-lines-purple-old.png" />
+    <Content Include="cjcc-assets\images\curved-lines-purple.png" />
+    <Content Include="cjcc-assets\images\family.png" />
+    <Content Include="cjcc-assets\images\fb-outline-circle-deep-blue.png" />
+    <Content Include="cjcc-assets\images\fb-outline-circle-white.png" />
+    <Content Include="cjcc-assets\images\FB_outline_circle_hennepin_blue.png" />
+    <Content Include="cjcc-assets\images\graph.png" />
+    <Content Include="cjcc-assets\images\h-logo-blue.png" />
+    <Content Include="cjcc-assets\images\icon-fb-darkblue-old.png" />
+    <Content Include="cjcc-assets\images\icon-fb-darkblue.png" />
+    <Content Include="cjcc-assets\images\icon-fb-standardblue.png" />
+    <Content Include="cjcc-assets\images\icon-fb.png" />
+    <Content Include="cjcc-assets\images\icon-instagram-darkblue.png" />
+    <Content Include="cjcc-assets\images\icon-instagram-standardblue.png" />
+    <Content Include="cjcc-assets\images\icon-instagram.png" />
+    <Content Include="cjcc-assets\images\icon-linkedin-darkblue.png" />
+    <Content Include="cjcc-assets\images\icon-linkedin-standardblue.png" />
+    <Content Include="cjcc-assets\images\icon-linkedin.png" />
+    <Content Include="cjcc-assets\images\icon-twitter-darkblue.png" />
+    <Content Include="cjcc-assets\images\icon-twitter-standardblue.png" />
+    <Content Include="cjcc-assets\images\icon-twitter.png" />
+    <Content Include="cjcc-assets\images\instagram-outline-circle-white.png" />
+    <Content Include="cjcc-assets\images\Instagram_outline_circle_hennepin_blue.png" />
+    <Content Include="cjcc-assets\images\left_arrow.png" />
+    <Content Include="cjcc-assets\images\Lines.png" />
+    <Content Include="cjcc-assets\images\linkedIn-outline-circle-white.png" />
+    <Content Include="cjcc-assets\images\LinkedIn_outline_circle_hennepin_blue.png" />
+    <Content Include="cjcc-assets\images\pill.png" />
+    <Content Include="cjcc-assets\images\right_arrow.png" />
+    <Content Include="cjcc-assets\images\scale.png" />
+    <Content Include="cjcc-assets\images\social-media-icons-fb-blue.png" />
+    <Content Include="cjcc-assets\images\social-media-icons-fb-darkblue.png" />
+    <Content Include="cjcc-assets\images\social-media-icons-fb.png" />
+    <Content Include="cjcc-assets\images\social-media-icons-instagram-blue.png" />
+    <Content Include="cjcc-assets\images\social-media-icons-instagram.png" />
+    <Content Include="cjcc-assets\images\social-media-icons-twitter-blue.png" />
+    <Content Include="cjcc-assets\images\social-media-icons-twitter-darkblue.png" />
+    <Content Include="cjcc-assets\images\social-media-icons-twitter.png" />
+    <Content Include="cjcc-assets\images\social-media-icons-youtube-blue.png" />
+    <Content Include="cjcc-assets\images\social-media-icons-youtube-darkblue.png" />
+    <Content Include="cjcc-assets\images\social-media-icons-youtube.png" />
+    <Content Include="cjcc-assets\images\Strategy_map-old.png" />
+    <Content Include="cjcc-assets\images\Strategy_map.png" />
+    <Content Include="cjcc-assets\images\twitter-outline-circle-deep-blue.png" />
+    <Content Include="cjcc-assets\images\twitter-outline-circle-white.png" />
+    <Content Include="cjcc-assets\images\Twitter_outline_circle_hennepin_blue.png" />
+    <Content Include="cjcc-assets\images\video-arrow.png" />
+    <Content Include="cjcc-assets\images\Video.jpg" />
+    <Content Include="cjcc-assets\images\youtube-outline-circle-deep-blue.png" />
+    <Content Include="cjcc-assets\images\youtube-outline-circle-white.png" />
+    <Content Include="cjcc-assets\images\youtube_outline_circle_hennepin_blue.png" />
+    <Content Include="cjcc-assets\index.html" />
+    <Content Include="cjcc-assets\members.html" />
+    <Content Include="cjcc-assets\strategy.html" />
+    <Content Include="layouts\Hennepin CJCC\CJCCDocumentsPage.ascx" />
+    <Content Include="layouts\Hennepin CJCC\CJCCHomePage.ascx" />
+    <Content Include="layouts\Hennepin CJCC\CJCCMaster.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="layouts\Hennepin CJCC\CJCCStrategy.ascx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="layouts\Hennepin CJCC\CJCCDocumentsPage.ascx.cs">
+      <DependentUpon>CJCCDocumentsPage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Hennepin CJCC\CJCCDocumentsPage.ascx.designer.cs">
+      <DependentUpon>CJCCDocumentsPage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Hennepin CJCC\CJCCHomePage.ascx.cs">
+      <DependentUpon>CJCCHomePage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Hennepin CJCC\CJCCHomePage.ascx.designer.cs">
+      <DependentUpon>CJCCHomePage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Hennepin CJCC\CJCCMaster.aspx.cs">
+      <DependentUpon>CJCCMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Hennepin CJCC\CJCCMaster.aspx.designer.cs">
+      <DependentUpon>CJCCMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layouts\Hennepin CJCC\CJCCStrategy.ascx.cs">
+      <DependentUpon>CJCCStrategy.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\Hennepin CJCC\CJCCStrategy.ascx.designer.cs">
+      <DependentUpon>CJCCStrategy.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="bin\Release\" />
+    <Folder Include="cjcc-assets\js\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\ComponentArt.UIFramework.lic" />
+    <Content Include="bin\debug-backup.zip" />
+    <Content Include="cjcc-assets\images\Thumbs.db" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49364/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
